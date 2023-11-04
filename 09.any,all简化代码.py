@@ -14,3 +14,4 @@ def sys_all():
 if __name__ == '__main__':
     # For a wide range of judgments, "all" and "any" will be faster than handwritten judgments
     print(my_all(), sys_all())
+

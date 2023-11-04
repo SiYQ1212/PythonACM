@@ -20,4 +20,5 @@ t3 = perf_counter()
 
 print(t2 - t1)
 print(t3 - t2)
+print(dc_0)
 # Counters are faster than manually implementing counters
