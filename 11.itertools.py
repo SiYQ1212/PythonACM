@@ -8,6 +8,7 @@ print(reduce(lambda a, b: a * b, standardList))  # ((((2 * 4) * 6) * 8) * 10)
 
 """Group deduplication"""
 x = list(itertools.groupby("AAADDGGGG"))  # Adjacent grouping
+print(x)
 m = itertools.groupby([64, 56, 43, 21, 62, 42, 76], lambda x: x % 2 == 0)  # Group by own rule.
 for k, v in m:
     print(k, list(v))

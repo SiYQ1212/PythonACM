@@ -10,7 +10,7 @@ def cal(func):
 
 
 @cal
-def bubleSort(nums):
+def bubbleSort(nums):
     """O(n^2)"""
     for i in range(len(nums) - 1):
         exchange = False
@@ -198,7 +198,7 @@ if __name__ == '__main__':
     n = 10 ** 5
     nums = [i for i in range(n)]
     random.shuffle(nums)
-    # bubleSort(nums[:])
+    # bubbleSort(nums[:])
     # selectSort(nums[:])
     # insertSort(nums[:])
     quickSortSpeed(nums[:], 0, len(nums) - 1)
